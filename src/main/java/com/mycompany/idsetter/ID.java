@@ -25,7 +25,7 @@ public class ID implements Serializable {
         int newID=0;
         //Presenza id
         for(int i=0; i<listaID.length; i++) {
-            if(listaID[i]==newID)
+            if(listaID[i]==newID) 
                 newID++;
         }
         //Aggiunta dell'id alla lista presenze
